@@ -34,11 +34,11 @@ route = trip_data1[Origin]&" - "&trip_data1[Destination]
 5- Month
 month = format(trip_data1[Delivery_Date],"mmmm")
 
-DASHBOARD
-	Bar chart: On-Time Delivery % by Route.
-	Line chart: Fuel Efficiency trend by month.
-  KPI cards: On-Time Delivery % , Cost per km.
-	Map visual: Delivery performance by route (Origin → Destination).
+DASHBOARD VISUALIZATIONS
+-Bar chart: On-Time Delivery % by Route.
+-Line chart: Fuel Efficiency trend by month.
+-KPI cards: On-Time Delivery % , Cost per km.
+-Map visual: Delivery performance by route (Origin → Destination).
 
 SLICERS
 - Origin
@@ -46,6 +46,7 @@ SLICERS
 - Vehicle Type
 - Month
 
+Through interactive dashboards, KPI tracking, DAX calculations and advanced visualisations, the analysis provides a comprehensive view of Fleet Performance & Delivery Efficiency.
 
 
 
